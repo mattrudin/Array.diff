@@ -1,3 +1,3 @@
-function array_diff(a, b) {
-  
+const array_diff = (arrayA, arrayB) => {
+	return arrayA.filter(value => value != arrayB);
 }
